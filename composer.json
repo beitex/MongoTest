@@ -1,0 +1,19 @@
+{
+    "name": "vendor_name/package_name",
+    "description": "description_text",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "author's name",
+            "email": "email@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Vector\\": "src/Vector"}
+    },
+    "require": {
+        "monolog/monolog": "1.11.0",
+        "doctrine/mongodb-odm": "1.0.x-dev"
+    }
+}
